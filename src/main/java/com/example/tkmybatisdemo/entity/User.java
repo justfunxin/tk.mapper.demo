@@ -2,8 +2,8 @@ package com.example.tkmybatisdemo.entity;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler;
 import com.example.tkmybatisdemo.enums.GenderEnum;
-import com.example.tkmybatisdemo.typehandler.GenericJacksonTypeHandler;
 import lombok.Data;
 import tk.mybatis.mapper.annotation.ColumnType;
 
@@ -32,8 +32,8 @@ public class User {
 
     private String mobile;
 
-    @ColumnType(typeHandler = GenericJacksonTypeHandler.class)
-    @TableField(typeHandler = GenericJacksonTypeHandler.class)
+    @ColumnType(typeHandler = JacksonTypeHandler.class)
+    @TableField(typeHandler = JacksonTypeHandler.class)
     private UserInfo[] infos;
 
     private Date createTime;

@@ -16,7 +16,7 @@ import java.util.List;
 @Repository
 public interface User2Mapper extends BaseMapper<User> {
 
-    @Results(value = {
+    @Results(id="UserResultMap", value = {
             @Result(column = "infos", property = "infos", typeHandler = JacksonTypeHandler.class)
     })
     @Select("select * from user")
