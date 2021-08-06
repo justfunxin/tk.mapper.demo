@@ -4,7 +4,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author pangxin01822
+ * @author kangaroo_xin
  */
 @Configuration
 @MapperScan("com.example.tkmybatisdemo.mapper")

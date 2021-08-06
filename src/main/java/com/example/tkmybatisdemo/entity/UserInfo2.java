@@ -3,7 +3,7 @@ package com.example.tkmybatisdemo.entity;
 import lombok.Data;
 
 /**
- * @author pangxin01822
+ * @author kangaroo_xin
  */
 @Data
 public class UserInfo2 {

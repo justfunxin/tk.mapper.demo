@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * @author pangxin01822
+ * @author kangaroo_xin
  */
 @Repository
 public interface User2Mapper extends BaseMapper<User> {

@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author pangxin01822
+ * @author kangaroo_xin
  */
 @RestController
 @RequestMapping("/user2")

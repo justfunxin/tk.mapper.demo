@@ -8,7 +8,7 @@ import lombok.Getter;
 import java.util.HashMap;
 
 /**
- * @author pangxin01822
+ * @author kangaroo_xin
  */
 public enum GenderEnum {
     UNKNOWN(0, "未知"),

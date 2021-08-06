@@ -13,7 +13,7 @@ import javax.persistence.Table;
 import java.util.Date;
 
 /**
- * @author pangxin01822
+ * @author kangaroo_xin
  */
 @Data
 @Table(name = "user")

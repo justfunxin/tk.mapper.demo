@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * @author pangxin01822
+ * @author kangaroo_xin
  */
 @Data
 public class UserInfo {
